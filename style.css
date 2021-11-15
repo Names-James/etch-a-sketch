@@ -17,7 +17,14 @@ body {
     padding: 32px;
 }
 
+#colorBox {
+  display: flex;
+  gap: 10px;
+}
+
 #grid {
+    height:  500px;
+    width: 500px;
     display: grid;
     border: 3px solid black;
     border-radius: 5px;
